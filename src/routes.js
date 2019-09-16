@@ -16,6 +16,7 @@ routes.get('/', (req, res) => {
 routes.post('/user', UserController.StorageEvent);
 routes.get('/users', UserController.getAllUsers);
 routes.get('/user/:_id', UserController.getUser);
+routes.put('/user/:_id', UserController.Update);
 
 //Login
 routes.post('/login', Login.login);
