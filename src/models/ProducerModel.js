@@ -1,9 +1,6 @@
 const { Schema, model }  = require('mongoose');
 
 
-const ContactSchema = new Schema({
-    
-})
 
 const AddressSchema = new Schema({
     neighborhood:{
@@ -37,8 +34,11 @@ const AvaliationSchema = new Schema({
         description:{
             type:String
         },
-        relevance:Number 
-
+        relevance:Number
+      
+}, 
+{
+    timestamps:true,    
 })
 
 const ProducerSchema = new Schema({
