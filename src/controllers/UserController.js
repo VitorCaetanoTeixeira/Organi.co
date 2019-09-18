@@ -91,13 +91,6 @@ module.exports = {
                 
         return res.json({mensage:"Update com sucesso!"});
         
-        
-        
-        
-        
-      
-
-        
     }
 
 

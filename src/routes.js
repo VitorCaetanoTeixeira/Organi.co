@@ -25,6 +25,7 @@ routes.post('/login', Login.login);
 routes.post('/producer', ProducerController.StorageEvent);
 routes.get('/producers', ProducerController.getAllProducer);
 routes.get('/producer/:_id', ProducerController.getProducer);
+routes.put('/producer/:_id', ProducerController.Update);
 
 //Avaliation 
 routes.post('/avaliation/:_idProducer', Avaliation.avaliationComent);
