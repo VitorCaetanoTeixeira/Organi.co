@@ -3,7 +3,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const dep = require('../varLocal/dependencia');
 
 const routes = require('./routes');
 const httpServer = express();

@@ -1,7 +1,6 @@
 const User = require('../models/UserModel');
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const {JWT_KEY} = require("../../varLocal/dependencia");
 
 module.exports = {
 

@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const { JWT_KEY } = require("../../varLocal/dependencia");
+
 module.exports = (req, res, next) => {
     try {
         const token = req.headers.authorization.split(" ")[1];
