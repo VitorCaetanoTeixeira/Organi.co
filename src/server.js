@@ -12,5 +12,5 @@ mongoose.connect(process.env.CONECTION_STRING ,{ useNewUrlParser :true });
 httpServer.use(cors());
 httpServer.use(express.json());
 httpServer.use(routes);
-httpServer.listen(3333);
+httpServer.listen(process.env.PORT || 3333);
 console.log("Conexão OK")
