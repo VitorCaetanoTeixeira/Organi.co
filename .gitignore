@@ -1,2 +1,3 @@
 varLocal
 node_modules
+.env
