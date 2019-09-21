@@ -1,4 +1,4 @@
-
+require('dotenv/config');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const routes = require('./routes');
 const httpServer = express();
-//console.log("string de conexão: " + dep.conectionString)
+
 mongoose.connect(process.env.CONECTION_STRING ,{ useNewUrlParser :true });
 
 httpServer.use(cors());
