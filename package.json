@@ -2,7 +2,7 @@
   "name": "Organi.co",
   "version": "1.0.0",
   "description": "API de aplicativo que mostra os pequenos produtores que exitem perto da sua localização.",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js"
