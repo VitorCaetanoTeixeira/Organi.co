@@ -27,7 +27,7 @@ module.exports = {
                     email: user[0].email,
                     userId: user[0]._id
                     },
-                    JWT_KEY,
+                    process.env.JWT_KEY,
                     {
                         expiresIn: "78h"
                     }
