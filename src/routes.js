@@ -9,7 +9,10 @@ const Login = require('./controllers/Login');
 const routes = express.Router();
 
 routes.get('/', (req, res) => {
-    return Response.send('DOC')
+    return res.send(`<h1>Vitor Caetano Teixeira</h1><br>
+                        <p>Desenvolvedor</p><br>
+                        <p>Api de aplicação com consulta e avaliação de pequenos e médios produtores de organico</p>
+                    ` )
 });
 
 //User Routes
